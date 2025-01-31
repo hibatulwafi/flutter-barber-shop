@@ -1,5 +1,45 @@
-# See https://www.dartlang.org/guides/libraries/private-files
+# Ignore file environment backend
+backend/.env
 
+# Ignore node_modules (backend)
+backend/node_modules/
+
+# Ignore Flutter-specific files
+frontend/.dart_tool/
+frontend/.packages
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.metadata
+frontend/.idea/
+frontend/build/
+frontend/ios/.generated/
+frontend/ios/Flutter/App.framework/
+frontend/ios/Flutter/Flutter.framework/
+frontend/ios/Flutter/Generated.xcconfig/
+frontend/ios/Flutter/app.flx/
+frontend/ios/Flutter/app.zip/
+frontend/ios/Flutter/flutter_assets/
+frontend/ios/Flutter/flutter_export_environment.sh/
+frontend/ios/ServiceDefinitions.json
+frontend/ios/Runner/GeneratedPluginRegistrant.*
+
+# Ignore Android-specific files
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/build/
+
+# Ignore macOS-specific files
+frontend/macos/Flutter/GeneratedPluginRegistrant.swift
+frontend/macos/Flutter/Flutter-Debug.xcconfig
+frontend/macos/Flutter/Flutter-Release.xcconfig
+frontend/macos/Flutter/Flutter-Profile.xcconfig
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
 # Files and directories created by pub
 .dart_tool/
 .packages
